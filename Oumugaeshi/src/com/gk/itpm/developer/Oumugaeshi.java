@@ -6,19 +6,28 @@ public class Oumugaeshi {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+//
+//		boolean isNotExit = true;
+//		do {
+//			String str = sc.nextLine();
+//
+//			if(!"exit".equals(str)) {
+//				System.out.println(str);
+//			} else {
+//				isNotExit = false;
+//			}
+//		} while (isNotExit);
+//
+//		sc.close();
 
-		boolean isNotExit = true;
+		String str;
+
 		do {
-			String str = sc.nextLine();
+			str = sc.nextLine();
 
-			if(!"exit".equals(str)) {
-				System.out.println(str);
-			} else {
-				isNotExit = false;
-			}
-		} while (isNotExit);
+			System.out.println(str);
+		} while (!"exit".equals(str));
 
-		sc.close();
 	}
 
 }
