@@ -49,9 +49,6 @@ public class ITPMDEveloperNameList {
 
 		developersNameList.add("hoge");
 		developersNameArray.add("hoge");
-
-
-
 	}
 
 }

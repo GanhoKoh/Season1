@@ -28,6 +28,7 @@ public class Oumugaeshi {
 			System.out.println(str);
 		} while (!"exit".equals(str));
 
+		sc.close();
 	}
 
 }
